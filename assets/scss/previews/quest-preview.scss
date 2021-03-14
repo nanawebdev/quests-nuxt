@@ -1,0 +1,98 @@
+.quests-list {
+  padding: 0;
+  list-style: none;
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+// .quests-list li {
+//   list-style-type: none;
+// }
+
+.preview-quest {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  position: relative;
+  text-decoration: none;
+  padding-top: 24px;
+}
+
+.preview-quest .image-wrapper {
+  border-radius: 8px;
+}
+
+.preview-quest-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.preview-text {
+  margin-left: 16px;
+}
+
+.preview-title {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 4px;
+  color: var(--default-light);
+  padding-top: 2px;
+}
+
+.episodes-wrapper {
+  display: flex;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.episodes {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--default-light-25);
+  font-weight: 400;
+  margin-left: 4px;
+  margin-bottom: 12px;
+}
+
+.episodes-icon {
+  color: var(--default-light);
+}
+
+.quest-description {
+  color: var(--default-light-75);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  overflow-y: hidden;
+  max-height: 40px;
+}
+
+@media (max-width: 640px) {
+  .preview-quest {
+    padding-top: 15px;
+  }
+
+  .preview-quest .divider {
+    margin-top: 4px;
+  }
+}
+// .episodes-info .info-item {
+//   margin-left: 8px;
+// }
+
+// .episodes-info-wrapper {
+//   margin-top: 24px;
+// }
+
+// .quest-page .episodes-info-wrapper {
+//   margin-top: 23px;
+// }
+
+// .quests-page .description,
+// .user-page .description,
+// .main-page {
+//   max-height: 40px;
+// }

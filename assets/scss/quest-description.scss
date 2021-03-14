@@ -1,0 +1,39 @@
+.quest-page .main-text {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.author-name {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--default-light-25);
+}
+
+.quest-page .description {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.episodes-info-wrapper {
+  margin-top: 23px;
+}
+
+.episodes-info {
+  display: flex;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.episodes-info .info-item {
+  margin-left: 8px;
+}
+
+@media (max-width: 640px) {
+  .episodes-info-wrapper {
+    margin: 0;
+    margin-top: 22px;
+  }
+}

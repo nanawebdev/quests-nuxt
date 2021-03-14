@@ -1,0 +1,97 @@
+.navigation-panel-wrapper {
+  width: 640px;
+  position: fixed;
+  display: flex;
+  bottom: 24px;
+}
+
+.navigation-panel {
+  width: 100%;
+  border: 1px solid var(--quests-color);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 56px;
+  align-items: center;
+  background-color: var(--default-dark);
+}
+
+.panel-page-name {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--default-light-50);
+  transition: color 0.3s;
+}
+
+.panel-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+// раскрас svg  у неактивной ссылки
+.icon-fill {
+  fill: var(--default-light);
+  fill-opacity: 0.5;
+}
+
+//Quests page
+
+.panel-item-quests._exact_active .icon-fill {
+  fill: var(--quests-color);
+  fill-opacity: 1;
+}
+
+.panel-item-quests._exact_active .panel-page-name {
+  color: var(--quests-color);
+}
+
+// Profile page
+
+.panel-item-profile._exact_active .icon-fill {
+  fill: var(--profile-color);
+  fill-opacity: 1;
+}
+
+.panel-item-profile._exact_active .panel-page-name {
+  color: var(--profile-color);
+}
+
+.profile-page .navigation-panel {
+  border-color: var(--profile-color);
+}
+
+//News page
+
+.panel-item-news._exact_active .icon-fill {
+  fill: var(--news-color);
+  fill-opacity: 1;
+}
+
+.news-page .navigation-panel {
+  border-color: var(--news-color);
+}
+
+// hover
+.panel-link:hover .panel-page-name {
+  color: var(--default-light);
+}
+
+.panel-link:hover .icon-fill {
+  fill: var(--default-light);
+}
+
+@media (max-width: 640px) {
+  .navigation-panel-wrapper {
+    width: 100%;
+    bottom: 22px;
+    padding: 0 21px;
+  }
+}

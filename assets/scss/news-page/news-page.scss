@@ -1,0 +1,61 @@
+.news-page .quests-list,
+.news-page .news-list {
+  padding-bottom: 0;
+}
+
+.news-page .quests-list {
+  padding-left: 0;
+}
+
+.news-page .wrapper {
+  padding-top: 0;
+}
+
+.news-page .list-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  padding-left: 0;
+}
+
+.news-page .divider {
+  margin-top: 21px;
+}
+
+.list-wrapper {
+  margin-bottom: 16px;
+}
+
+.list-wrapper .preview-quest,
+.list-wrapper .news-list {
+  padding-top: 16px;
+}
+
+.news-page .quest-status {
+  top: 80px;
+  left: 2px;
+}
+
+@media (max-width: 640px) {
+  .news-page .wrapper {
+    padding: 0;
+  }
+
+  .news-page .main-text,
+  .news-page .lists {
+    padding: 0 20px;
+  }
+
+  .news-page .quests-list li:last-child {
+    padding: 0;
+  }
+
+  .list-wrapper {
+    margin-bottom: 0;
+  }
+
+  .news-page .news-list {
+    padding: 16px 0 0 0;
+  }
+}

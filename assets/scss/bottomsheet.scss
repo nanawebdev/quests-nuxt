@@ -1,0 +1,79 @@
+.bottomsheet-wrapper {
+  position: fixed;
+  z-index: 40;
+  bottom: 0;
+  left: 50%;
+  margin-left: -320px;
+  display: none;
+}
+
+.bottomsheet {
+  background-color: var(--default-light);
+  color: var(--default-dark);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 20px 20px 16px 20px;
+  position: relative;
+  width: 640px;
+}
+
+.bottomsheet::after {
+  position: absolute;
+  content: '';
+  top: 8px;
+  left: 296px;
+  background-color: var(--default-dark-25);
+  height: 4px;
+  width: 48px;
+  border-radius: 2px;
+}
+
+.bottomsheet .preview-title {
+  color: var(--default-dark);
+}
+
+.bottomsheet .quest-description {
+  color: var(--default-dark-75);
+}
+
+.actions-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 76px;
+  padding-top: 10px;
+}
+
+.bottomsheet-action {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--default-dark-75);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottomsheet .divider {
+  background-color: var(--bottomsheet-light);
+  margin-top: 24px;
+}
+
+.bottomsheet .episodes-wrapper {
+  color: var(--default-light-50);
+}
+
+.bottomsheet .episodes {
+  color: var(--default-dark-50);
+}
+
+.bottomsheet .preview-quest {
+  padding-top: 0;
+}
+
+.bottomsheet .episodes-icon {
+  color: var(--default-dark);
+}

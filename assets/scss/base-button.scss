@@ -1,0 +1,47 @@
+.button-wrapper {
+  width: 640px;
+  position: fixed;
+  z-index: 10;
+  bottom: 24px;
+  padding: 0 20px;
+}
+
+.button {
+  background-color: var(--login-color);
+  color: var(--default-text);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.button[disabled] {
+  background-color: var(--divider-super-translucent);
+  color: var(--medium-translucent-text);
+  cursor: default;
+}
+
+.button[disabled]:hover {
+  opacity: 1;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .button-wrapper {
+    width: 100%;
+    bottom: 22px;
+    padding: 0 21px;
+  }
+}
