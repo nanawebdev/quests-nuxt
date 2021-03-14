@@ -4,7 +4,11 @@
   bottom: 0;
   left: 50%;
   margin-left: -320px;
-  display: none;
+  transition: transform 0.3s;
+}
+
+.bottomsheet-wrapper._hidden {
+  transform: translateY(100%);
 }
 
 .bottomsheet {
@@ -17,15 +21,16 @@
   width: 640px;
 }
 
-.bottomsheet::after {
+.close-bottomsheet {
   position: absolute;
-  content: '';
   top: 8px;
   left: 296px;
   background-color: var(--default-dark-25);
   height: 4px;
   width: 48px;
   border-radius: 2px;
+  border: none;
+  z-index: 10;
 }
 
 .bottomsheet .preview-title {

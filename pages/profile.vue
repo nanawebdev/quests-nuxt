@@ -56,18 +56,28 @@
 </template>
 
 <script>
+import BottomSheet from '@/components/BottomSheet.vue'
+import QuestPreview from '@/components/QuestPreview.vue'
+
 export default {
+  components: {
+    BottomSheet,
+    QuestPreview
+  },
   head: {
     bodyAttrs: {
       class: 'profile'
     }
+  },
+  mounted() {
+    const openBottomSheetButtons = document.querySelectorAll('.js-open-bottomsheet')
+    const bottomSheet = document.querySelector('.bottomsheet-wrapper')
+
+    for (let i = 0; i < openBottomSheetButtons.length; i++) {
+      openBottomSheetButtons[i].addEventListener('click', () => {
+        bottomSheet.classList.remove('_hidden')
+      })
+    }
   }
-  // mounted() {
-  //   // const openBottomSheetButtons = document.querySelectorAll('.js-open-bottomsheet')
-  //   // const bottomSheet = document.querySelector('.bottomsheet-wrapper')
-  //   // openBottomSheetButtons.addEventListener('click', () => {
-  //   //   bottomSheet.style.display = 'block'
-  //   })
-  // }
 }
 </script>
