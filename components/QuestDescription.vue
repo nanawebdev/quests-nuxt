@@ -1,7 +1,7 @@
 <template>
   <section class="main-description">
     <div class="main-image-wrapper">
-      <img class="main-image" width="640" height="359" src="/images/quest-image.jpg" alt="фото новости">
+      <img class="main-image" width="640" height="359" src="/quests-nuxt/images/quest-image.jpg" alt="фото новости">
     </div>
     <div class="main-text">
       <span class="author-name">Иванов Иван</span>

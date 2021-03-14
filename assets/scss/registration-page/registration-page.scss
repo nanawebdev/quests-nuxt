@@ -113,7 +113,7 @@
 
 .reg-checkbox:checked + .terms-of-use-text::before {
   background-color: none;
-  background-image: url('/statick/images/agree-icon.svg');
+  background-image: url('~assets/images/checkbox-icon.svg');
   background-size: contain;
 }
 

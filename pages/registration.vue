@@ -15,7 +15,7 @@
               width="60"
               height="60"
               alt="Аватар пользователя"
-              src="/images/user-image.jpg"
+              src="/quests-nuxt/images/user-image.jpg"
               style="border-radius: 50%;"
             >
           </div>

@@ -7,7 +7,7 @@
           width="60"
           height="60"
           alt="аватар квеста"
-          src="/images/wind-of-change.png"
+          src="/quests-nuxt/images/wind-of-change.png"
         >
         <div class="quest-status" :class="'quest-status-'+status">
           {{ statusText }}
