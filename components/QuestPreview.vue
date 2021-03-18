@@ -86,14 +86,5 @@ export default {
       return ''
     }
   }
-  // mounted() {
-  //   const openBottomSheetButtons = document.querySelectorAll('.js-open-bottomsheet')
-  //   const bottomSheet = document.querySelector('.bottomsheet-wrapper')
-
-  //   for (i = 0; i < openBottomSheetButtons.length; i++) {
-  //     openBottomSheetButtons[i].addEventListener('click', function() {
-  //       bottomSheet.style.display = 'block'
-  //     })
-  //   }
 }
 </script>

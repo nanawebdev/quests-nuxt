@@ -156,3 +156,22 @@ main {
     left: 10px;
   }
 }
+
+.overlay {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  background-color: var(--overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.overlay._hidden {
+  display: none;
+}

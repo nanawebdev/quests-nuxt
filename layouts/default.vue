@@ -5,6 +5,7 @@
       <Nuxt />
 
       <NavigationPanel v-if="canShowNavigationPanel" />
+      <div class="overlay _hidden"></div>
     </main>
     <footer></footer>
   </div>

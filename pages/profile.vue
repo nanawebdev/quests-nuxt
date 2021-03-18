@@ -72,10 +72,12 @@ export default {
   mounted() {
     const openBottomSheetButtons = document.querySelectorAll('.js-open-bottomsheet')
     const bottomSheet = document.querySelector('.bottomsheet-wrapper')
+    const overlay = document.querySelector('.overlay')
 
     for (let i = 0; i < openBottomSheetButtons.length; i++) {
       openBottomSheetButtons[i].addEventListener('click', () => {
         bottomSheet.classList.remove('_hidden')
+        overlay.classList.remove('_hidden')
       })
     }
   }
