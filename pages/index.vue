@@ -1,16 +1,72 @@
 <template>
-  <ul class="quests-list">
-    <QuestPreview v-for="(n, index) in 15" :key="index" />
-  </ul>
+  <div class="styleguide-lists">
+    <h1>Список страниц</h1>
+    <ul>
+      <li>
+        <NuxtLink to="/login">
+          Логин
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/quests">
+          Список квестов
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/registration">
+          Регистрация
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/news-page">
+          Страница новости
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/news">
+          Список новостей
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/profile">
+          Профиль
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/quest-page">
+          Страница квеста
+        </NuxtLink>
+      </li>
+    </ul>
+    <h1>Элементы страниц</h1>
+    <ul>
+      <li>
+        <NuxtLink to="/loader">
+          Лоадер
+        </NuxtLink>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
 export default {
-  head: {
-    title: 'Квесты',
-    bodyAttrs: {
-      class: 'main-page'
-    }
-  }
+  layout: 'styleguide'
 }
 </script>
+
+<style scoped>
+.styleguide-lists {
+  padding: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+</style>
