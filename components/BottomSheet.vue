@@ -1,6 +1,5 @@
 <template>
   <div class="bottomsheet-wrapper _hidden">
-    <button class="close-bottomsheet" type="button"></button>
     <div class="bottomsheet">
       <QuestPreview :is-link="false" :status="''" />
       <div class="actions-wrapper">
