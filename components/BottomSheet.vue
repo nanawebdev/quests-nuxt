@@ -14,15 +14,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  mounted() {
-    const bottomSheet = document.querySelector('.bottomsheet-wrapper')
-    const closeBottomsheet = document.querySelector('.close-bottomsheet')
-    closeBottomsheet.addEventListener('click', () => {
-      bottomSheet.classList.add('_hidden')
-    })
-  }
-}
-</script>
