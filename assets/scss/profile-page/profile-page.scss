@@ -83,14 +83,6 @@
   position: relative;
 }
 
-.list-title {
-  margin: 0;
-  padding-top: 31px;
-  padding-left: 20px;
-  font-size: 20px;
-  line-height: 24px;
-}
-
 // Для квеста, который создал пользователь
 .profile .image-wrapper {
   position: relative;
@@ -137,8 +129,27 @@
   padding: 0;
 }
 
+.list-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .profile .navigation-panel-wrapper {
   margin-left: 20px;
+}
+
+.icon-plus {
+  width: 16px;
+  height: 16px;
+}
+
+.add-new-element-wrapper {
+  display: flex;
+  padding-top: 31px;
+  padding-left: 20px;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 
 @media (max-width: 640px) {

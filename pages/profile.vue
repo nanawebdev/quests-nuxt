@@ -8,7 +8,6 @@
           height="60"
           alt="Аватар пользователя"
           src="/quests-nuxt/images/user-image.jpg"
-          style="border-radius: 50%;"
         >
 
         <div class="name-wrapper">
@@ -40,9 +39,30 @@
     </div>
 
     <div class="user-quests">
-      <h2 class="list-title">
-        Мои квесты
-      </h2>
+      <div class="add-new-element-wrapper">
+        <div class="list-title">
+          Мои квесты
+        </div>
+        <div>
+          <svg
+            class="icon-plus"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 1V15M1 8H15"
+              stroke="white"
+              stroke-opacity="0.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+
       <ul class="quests-list">
         <QuestPreview v-for="(n, index) in 20" :key="index" />
         <QuestPreview status="review" />
