@@ -128,18 +128,12 @@
     height: 48px;
   }
 
-  .registration-user-data .image-wrapper {
-    width: 48px;
-    height: 48px;
-  }
-
   .registration-name-input::after {
     bottom: 10px;
   }
 
   .registration-page .wrapper {
-    padding-top: 36px;
-    padding-bottom: 24px;
+    padding: 36px 20px 24px 20px;
   }
 
   .registration-page .button {
