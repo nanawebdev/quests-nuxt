@@ -15,16 +15,16 @@
 export default {
   computed: {
     pageClass() {
-      if (this.$route.path === '/profile') {
-        return 'profile-page'
-      }
       if (this.$route.path === '/news') {
         return 'news-list-page'
+      }
+      if (this.$route.path === '/profile') {
+        return 'profile-page'
       }
       return ''
     },
     canShowNavigationPanel() {
-      if (['/', '/news', '/profile'].includes(this.$route.path)) {
+      if (['/quests', '/news', '/profile'].includes(this.$route.path)) {
         return true
       }
       return false
