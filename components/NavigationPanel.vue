@@ -1,7 +1,7 @@
 <template>
   <div class="navigation-panel-wrapper">
     <div class="navigation-panel">
-      <NuxtLink class="panel-link panel-item-quests" to="/" exact-active-class="_exact_active">
+      <NuxtLink class="panel-link panel-item-quests" to="quests" exact-active-class="_exact_active">
         <svg width="24" height="23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             class="icon-fill"
