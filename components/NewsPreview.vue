@@ -6,7 +6,7 @@
       <div class="text-wrapper">
         <div class="preview-main-text">
           <h3 class="preview-title">Тестовая</h3>
-          <p class="short-description">Тестовая</p>
+          <p class="short-description">Тестов</p>
         </div>
       </div>
     </a>
