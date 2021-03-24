@@ -12,7 +12,7 @@
   grid-template-columns: max-content 1fr;
   column-gap: 32px;
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .preview-news .image-wrapper {
@@ -40,10 +40,10 @@
 }
 
 .preview-main-text {
-  display: grid;
-  grid-template-rows: max-content max-content;
-  row-gap: 8px;
-  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80px;
 }
 
 .short-description {
@@ -57,14 +57,12 @@
 
 .text-wrapper {
   position: relative;
-  margin-bottom: 40px;
 }
 
 .text-wrapper::after {
   position: absolute;
   content: "";
-  bottom: 0;
-  bottom: -40px;
+  bottom: -24px;
   height: 1px;
   width: 100%;
   background-color: var(--divider);
