@@ -22,7 +22,7 @@
     <div class="container">
       <div class="bottomsheet-wrapper">
         <div class="bottomsheet">
-          <QuestPreview :is-link="false" :status="'progress'" />
+          <QuestPreview :is-link="false" :status="'progress'" :has-open-bottomsheet-button="false" />
           <div class="actions-wrapper">
             <button type="button" class="bottomsheet-action">
               Отправить на проверку
@@ -39,7 +39,7 @@
     <div class="container">
       <div class="bottomsheet-wrapper">
         <div class="bottomsheet">
-          <QuestPreview :is-link="false" :status="'progress'" />
+          <QuestPreview :is-link="false" :status="'progress'" :has-open-bottomsheet-button="false" />
           <div class="actions-wrapper">
             <button type="button" class="bottomsheet-action">
               Отправить на проверку

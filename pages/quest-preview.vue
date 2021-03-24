@@ -1,5 +1,6 @@
 <template>
   <div>
+    <QuestPreview :has-open-bottomsheet-button="false" />
     <li>
       <component :is="isLink ? 'a' : 'div'" class="preview-quest">
         <div class="image-wrapper">
