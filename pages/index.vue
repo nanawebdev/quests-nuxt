@@ -45,6 +45,11 @@
           Лоадер
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/bottomsheet">
+          BottomSheet
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
