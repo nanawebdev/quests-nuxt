@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-// .quests-list li {
+// li {
 //   list-style-type: none;
 // }
 
@@ -31,13 +31,33 @@
   margin-left: 16px;
 }
 
-.preview-title {
+.button-title-wrapper {
+  padding-top: 2px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  column-gap: 8px;
+}
+
+.preview-quest .preview-title {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
   margin-bottom: 4px;
   color: var(--default-light);
-  padding-top: 2px;
+  max-height: 46px;
+  overflow: hidden;
+  max-width: 536px;
+}
+
+.open-bottomsheet {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .episodes-wrapper {
@@ -66,7 +86,7 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  overflow-y: hidden;
+  overflow: hidden;
   max-height: 40px;
 }
 
