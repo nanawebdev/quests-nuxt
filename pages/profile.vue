@@ -64,14 +64,25 @@
       </div>
 
       <ul class="quests-list">
-        <QuestPreview v-for="(n, index) in 20" :key="index" />
+        <QuestPreview v-for="(n, index) in 2" :key="index" />
         <QuestPreview status="review" />
         <QuestPreview status="private" />
         <QuestPreview status="progress" />
       </ul>
     </div>
 
-    <BottomSheet />
+    <BottomSheet>
+      <QuestPreview :is-link="false" :status="'progress'" />
+      <div class="actions-wrapper">
+        <button type="button" class="bottomsheet-action">
+          Отправить на проверку
+        </button>
+
+        <button type="button" class="bottomsheet-action">
+          Опубликовать приватно
+        </button>
+      </div>
+    </BottomSheet>
   </div>
 </template>
 
