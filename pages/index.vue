@@ -50,6 +50,11 @@
           BottomSheet
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/quest-preview">
+          Quest preview
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
