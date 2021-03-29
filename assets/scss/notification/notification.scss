@@ -2,6 +2,8 @@
   border: 1px solid var(--quests-color);
   min-height: 40px;
   padding-left: 16px;
+  padding-right: 16px;
+  max-width: 640px;
   border-radius: 8px;
   font-size: 14px;
   line-height: 20px;
@@ -9,6 +11,8 @@
   display: flex;
   align-items: center;
   font-weight: 400;
+  justify-content: space-between;
+  margin-bottom: 16px;
 
   &__button {
     background-color: transparent;
@@ -30,7 +34,7 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    margin-right: 20px;
+    margin-right: 8px;
     white-space: nowrap;
   }
 
@@ -45,6 +49,7 @@
 .news .notification {
   border-color: var(--news-color);
   color: var(--news-color);
+  margin-bottom: 30px;
 
   &__link {
     background-color: var(--news-color);
