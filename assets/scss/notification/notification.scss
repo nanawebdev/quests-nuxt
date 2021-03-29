@@ -1,0 +1,77 @@
+.notification {
+  border: 1px solid var(--quests-color);
+  min-height: 40px;
+  padding-left: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--quests-color);
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.notification__button {
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+
+.notification__text {
+  margin-right: 16px;
+}
+
+.notification__link {
+  background-color: var(--quests-color);
+  color: var(--default-dark);
+  border-radius: 4px;
+  height: 24px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.notification__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+// NEWS
+
+.news .notification {
+  border-color: var(--news-color);
+  color: var(--news-color);
+}
+
+.news .notification__link {
+  background-color: var(--news-color);
+}
+
+@media (max-width: 640px) {
+  .notification {
+    padding: 12px;
+    margin: 0 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 17px;
+  }
+
+  .notification__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .notification__wrapper {
+    margin-top: 8px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .notification__text {
+    margin-right: 0;
+  }
+}

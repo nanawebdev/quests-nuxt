@@ -38,6 +38,7 @@
         </NuxtLink>
       </li>
     </ul>
+
     <h1>Элементы страниц</h1>
     <ul>
       <li>
@@ -53,6 +54,11 @@
       <li>
         <NuxtLink to="/quest-preview">
           Quest preview
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/notification">
+          Оповещение "Установите приложение"
         </NuxtLink>
       </li>
     </ul>

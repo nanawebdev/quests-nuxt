@@ -2,6 +2,7 @@
   <div class="wrapper">
     <header></header>
     <main :class="pageClass">
+      <Notification v-if="canShowNotification" />
       <Nuxt />
 
       <NavigationPanel v-if="canShowNavigationPanel" />
@@ -25,6 +26,12 @@ export default {
     },
     canShowNavigationPanel() {
       if (['/quests', '/news', '/profile'].includes(this.$route.path)) {
+        return true
+      }
+      return false
+    },
+    canShowNotification() {
+      if (['/quests', '/news'].includes(this.$route.path)) {
         return true
       }
       return false
