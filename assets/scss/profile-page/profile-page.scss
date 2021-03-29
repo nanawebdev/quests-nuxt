@@ -150,8 +150,14 @@
 }
 
 .live-profile {
-  background-color: transparent;
-  border: none;
+  &__button {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__icon:hover path {
+    stroke-opacity: 1;
+  }
 }
 
 @media (max-width: 640px) {
