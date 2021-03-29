@@ -16,6 +16,15 @@
           </h3>
           <span class="user-plan">Базовый план «Free Way»</span>
         </div>
+
+        <div class="exit">
+          <button class="live-profile" type="button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" fill="white" fill-opacity="0.01" />
+              <path d="M20 12H8M20 12L16 16M20 12L16 8M12 5H6C4.89543 5 4 5.89543 4 7V17C4 18.1046 4.89543 19 6 19H12" stroke="white" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
       </div>
       <div class="cash-wrapper">
         <div class="divider"></div>
@@ -44,7 +53,7 @@
           Мои квесты
         </div>
         <div>
-          <button class="button-add">
+          <button class="button-add" type="button">
             <svg
               class="icon-plus"
               width="16"

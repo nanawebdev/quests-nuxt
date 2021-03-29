@@ -17,7 +17,8 @@
 }
 
 .user-info {
-  display: flex;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
 }
 
 .profile .divider {
@@ -146,6 +147,11 @@
   justify-content: space-between;
   padding-right: 20px;
   align-items: center;
+}
+
+.live-profile {
+  background-color: transparent;
+  border: none;
 }
 
 @media (max-width: 640px) {
