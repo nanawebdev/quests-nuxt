@@ -31,7 +31,7 @@ export default {
       return false
     },
     canShowNotification() {
-      if (['/quests', '/news'].includes(this.$route.path)) {
+      if (['/quests', '/news', '/profile'].includes(this.$route.path)) {
         return true
       }
       return false

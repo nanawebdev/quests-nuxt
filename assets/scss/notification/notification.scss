@@ -51,6 +51,20 @@
   }
 }
 
+// PROFILE
+.profile .notification-wrapper {
+  padding-top: 8px;
+}
+
+.profile .notification {
+  border-color: var(--profile-color);
+  color: var(--profile-color);
+
+  &__link {
+    background-color: var(--profile-color);
+  }
+}
+
 @media (max-width: 640px) {
   .notification {
     padding: 12px;
