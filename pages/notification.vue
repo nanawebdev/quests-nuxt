@@ -48,6 +48,7 @@
 .notification:nth-child(2) {
   border-color: var(--news-color);
   color: var(--news-color);
+  margin-top: 16px;
 }
 
 .notification:nth-child(2) .notification__link {
