@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{184:function(t,n,e){"use strict";e.r(n);var r={inheritAttrs:!1},l=e(9),component=Object(l.a)(r,(function(){var t=this,n=t.$createElement;return(t._self._c||n)("button",t._b({staticClass:"button",attrs:{type:"button"}},"button",t.$attrs,!1),[t._t("default")],2)}),[],!1,null,null,null);n.default=component.exports}}]);
