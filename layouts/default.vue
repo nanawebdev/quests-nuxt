@@ -28,7 +28,7 @@ export default {
       return false
     },
     canShowNotification() {
-      if (['/quests', '/news', '/profile'].some(v => this.$route.path.startsWith(v))) {
+      if (['/quests', '/news', '/profile', '/news-page', '/quest-page'].some(v => this.$route.path.startsWith(v))) {
         return true
       }
       return false

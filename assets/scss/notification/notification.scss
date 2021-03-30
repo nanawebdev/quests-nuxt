@@ -45,7 +45,7 @@
 }
 
 // NEWS
-
+.news-page .notification,
 .news .notification {
   border-color: var(--news-color);
   color: var(--news-color);
@@ -58,9 +58,17 @@
 
 // PROFILE
 .profile .notification-wrapper {
-  padding-top: 8px;
   display: flex;
   justify-content: center;
+}
+
+.profile .notification-wrapper,
+.news-page .notification-wrapper {
+  padding-top: 8px;
+}
+
+.news-page .notification {
+  margin-bottom: 40px;
 }
 
 .profile .notification {
