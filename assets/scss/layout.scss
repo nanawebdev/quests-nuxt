@@ -96,6 +96,10 @@ main {
     );
 }
 
+.item-page {
+  position: relative;
+}
+
 .cross {
   width: 32px;
   height: 32px;
@@ -152,8 +156,7 @@ main {
   }
 
   .cross {
-    top: 10px;
-    left: 10px;
+    display: none;
   }
 }
 
