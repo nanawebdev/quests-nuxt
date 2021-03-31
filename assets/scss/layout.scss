@@ -103,6 +103,9 @@ main {
 .cross {
   width: 32px;
   height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   stroke: var(--default-light);
   position: absolute;
   top: 38px;
@@ -156,8 +159,8 @@ main {
   }
 
   .cross {
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
   }
 }
 
