@@ -7,6 +7,7 @@
         </h2>
         <span class="subtitle">Проверь правильность данных</span>
       </div>
+
       <div class="registration-user-data">
         <div class="registration-avatar">
           <div class="image-wrapper">
@@ -16,14 +17,33 @@
               height="60"
               alt="Аватар пользователя"
               src="/quests-nuxt/images/user-image.jpg"
-              style="border-radius: 50%;"
             >
           </div>
         </div>
 
         <div class="registration-name-input">
           <span class="title">Имя</span>
-          <input type="text" aria-label="имя пользователя" placeholder="Ilnurri Zakiryanov" class="input">
+          <input
+            type="text"
+            aria-label="имя пользователя"
+            placeholder="Ilnurri Zakiryanov"
+            class="input"
+          >
+        </div>
+      </div>
+
+      <div class="registration-key-input">
+        <input
+          type="text"
+          aria-label="имя пользователя"
+          placeholder="Адрес ключа ETH-кошелька"
+          class="input"
+        >
+        <div class="subtitle">
+          <div class="subtitle-text">
+            Для вывода вознаграждения необходимо иметь Ether-кошелёк. Ты можешь
+            пропустить это поле и добавить адрес позже.
+          </div>
         </div>
       </div>
     </div>

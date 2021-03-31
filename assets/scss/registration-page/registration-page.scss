@@ -30,7 +30,8 @@
   align-items: center;
 }
 
-.registration-name-input {
+.registration-name-input,
+.registration-key-input {
   font-weight: 400;
   position: relative;
   margin-left: 32px;
@@ -39,11 +40,19 @@
   justify-content: center;
 }
 
+.registration-key-input {
+  margin-left: 130px;
+  margin-top: 24px;
+}
+
 .input {
   background-color: transparent;
   border: none;
   color: var(--default-light);
   outline-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .registration-name-input .title {
@@ -62,6 +71,29 @@
   position: absolute;
   content: "";
   bottom: 20px;
+  height: 2px;
+  width: 100%;
+  background-color: var(--divider);
+}
+
+.registration-key-input .subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--default-light-25);
+  margin-top: 36px;
+  position: relative;
+}
+
+.registration-key-input .subtitle-text {
+  max-width: 370px;
+}
+
+.registration-key-input .subtitle::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -19px;
   height: 2px;
   width: 100%;
   background-color: var(--divider);
@@ -113,8 +145,12 @@
 
 .reg-checkbox:checked + .terms-of-use-text::before {
   background-color: none;
-  background-image: url('~assets/images/checkbox-icon.svg');
+  background-image: url("~assets/images/checkbox-icon.svg");
   background-size: contain;
+}
+
+.registration-page-wrapper .page-title {
+  margin-top: 20px;
 }
 
 @media (max-width: 640px) {
@@ -150,5 +186,18 @@
 
   .registration-page-wrapper {
     padding-bottom: 0;
+  }
+
+  .registration-key-input {
+    margin-left: 0;
+    margin-top: 42px;
+  }
+
+  .registration-page-wrapper .page-title {
+    margin-top: 0;
+  }
+
+  .registration-key-input .subtitle-text {
+    max-width: 300px;
   }
 }
