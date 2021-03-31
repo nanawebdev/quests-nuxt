@@ -132,6 +132,16 @@
   align-items: center;
 }
 
+.bottomsheet-action-red {
+  color: var(--quests-color);
+}
+
+.bottomsheet-action-small {
+  color: rgba(16, 16, 16, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+}
+
 @media (max-width: 640px) {
   .bottomsheet-wrapper {
     width: 100%;

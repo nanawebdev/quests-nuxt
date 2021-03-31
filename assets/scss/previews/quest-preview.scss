@@ -25,6 +25,7 @@
   width: 60px;
   height: 60px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .preview-text {
@@ -41,12 +42,13 @@
 .preview-title {
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
-  margin-bottom: 4px;
+  margin: 0 0 4px;
+  color: #ffffff;
   color: var(--default-light);
   max-height: 46px;
   overflow: hidden;
   max-width: 536px;
+  word-break: break-word;
 }
 
 .open-bottomsheet {

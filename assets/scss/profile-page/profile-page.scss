@@ -89,28 +89,6 @@
   position: relative;
 }
 
-.quest-status {
-  color: var(--default-light);
-  position: absolute;
-  top: 64px;
-  left: 2px;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-}
-
-.quest-status-review {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.quest-status-private {
-  color: #ed6e33;
-}
-
-.quest-status-progress {
-  color: #276ef1;
-}
-
 .profile .preview-quest {
   position: relative;
   padding-top: 20px;
@@ -145,19 +123,18 @@
   padding-top: 20px;
   padding-left: 20px;
   justify-content: space-between;
-  padding-right: 4px;
+  padding-right: 8px;
   align-items: center;
 }
 
-.live-profile {
-  &__button {
-    background-color: transparent;
-    border: none;
-  }
+.live-profile__button {
+  background-color: transparent;
+  border: none;
+  padding: 4px;
+}
 
-  &__icon:hover path {
-    stroke-opacity: 1;
-  }
+.live-profile__icon:hover path {
+  stroke-opacity: 1;
 }
 
 @media (max-width: 640px) {

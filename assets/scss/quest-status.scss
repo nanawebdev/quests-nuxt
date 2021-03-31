@@ -1,0 +1,25 @@
+.quest-status {
+  color: var(--default-light);
+  position: absolute;
+  top: 64px;
+  left: 2px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.quest-status-review {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.quest-status-private {
+  color: #ed6e33;
+}
+
+.quest-status-progress {
+  color: #276ef1;
+}
+
+.quest-status-default {
+  display: none;
+}
