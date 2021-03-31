@@ -8,3 +8,9 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (max-width: 640px) {
+  .quest-page .notification {
+    margin-bottom: 32px;
+  }
+}
